@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.image{
+height: 100vh;
+width: 100%;
+    background-image: url(images/road.png);
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: relative; 
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.car{
+    
+    height: 200px;
+    width: 300px;
+    background-image: url(images/car2.jpeg);
+    background-size: contain;
+    position: absolute;
+    bottom: 2px;
+    background-color: yellow;
+    mix-blend-mode:darken;
+    background-repeat: no-repeat;   
+}
+#stop{
+    border: none;
+    height: 70px;
+    width: 140px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    border-radius: 50px;
+    background-color: red;
+}
+
+#start{
+    border: none;
+    height: 70px;
+    width: 140px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    border-radius: 50px;
+    background-color: green;
+}
